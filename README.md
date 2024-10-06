@@ -44,7 +44,7 @@ for(int i = 0; i<50 ; i++){
 Widget build(BuildContext context) {
   return Scaffold(
     body: Container(
-      child: GameLevelsScrollingMap.scrollable(
+      child: GameMap.scrollable(
               imageUrl: "assets/drawable/map_vertical.png",
               direction: Axis.vertical,
               reverseScrolling: true,
@@ -61,7 +61,7 @@ Widget build(BuildContext context) {
 Widget build(BuildContext context) {
   return Scaffold(
     body: Container(
-      child: GameLevelsScrollingMap.scrollable(
+      child: GameMap.scrollable(
             imageUrl: "assets/drawable/map_horizontal.png",
             direction: Axis.horizontal,
             svgUrl: 'assets/svg/map_horizontal.svg',

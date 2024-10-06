@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:game_levels_scrolling_map/game_levels_scrolling_map.dart';
-import 'package:game_levels_scrolling_map/model/point_model.dart';
+import 'package:game_map/game_map.dart';
+import 'package:game_map/model/point_model.dart';
 
 class MapHorizontalExample extends StatefulWidget {
   const MapHorizontalExample({Key? key}) : super(key: key);
@@ -14,7 +14,7 @@ class _MapHorizontalExampleState extends State<MapHorizontalExample> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-          child: GameLevelsScrollingMap.scrollable(
+          child: GameMap.scrollable(
         imageUrl: "assets/drawable/map_horizontal.png",
         svgUrl: "assets/svg/map_horizontal.svg",
         points: points,
